@@ -19,8 +19,8 @@ jobs:
         # Check out the `master` branch because by default GitHub Actions checks out detached HEAD
         git checkout master
         # Install Firefox dependencies needed on Ubuntu
-        sudo apt update
-        sudo apt install ubuntu-restricted-extras -y
+        #sudo apt update
+        #sudo apt install ubuntu-restricted-extras -y
         # Capture the screenshots
         npm install
         node .
